@@ -3,6 +3,6 @@
 
  \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Leggat_Gigya',
+    'Gigya_GigyaIM',
     __DIR__
 );

@@ -1,5 +1,5 @@
 {
-  "name": "leggat/gigya",
+  "name": "gigya/magento2-im",
   "description": "Gigya Identity Management for Magento 2",
   "type": "magento2-module",
   "version": "5.0.5",
