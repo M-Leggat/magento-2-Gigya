@@ -1,0 +1,54 @@
+{
+  "name": "gigya/magento2-im",
+  "description": "Gigya Identity Management for Magento 2",
+  "type": "magento2-module",
+  "version": "5.0.5",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Guy A",
+      "email": "guy.av@gigya-inc.com"
+    },
+    {
+      "name": "Alexandre Khayrullin",
+      "email": "akhayrullin@clever-age.com"
+    },
+    {
+      "name": "Vincent Lemaire",
+      "email": "vincentlemaire@clever-age.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/gigya/php_cms_kit.git"
+    },
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/module-customer": "*",
+    "gigya/cms-starter-kit": "1.1.9.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "phpmd/phpmd": "*",
+    "pdepend/pdepend": "*",
+    "sjparkinson/static-review": "*",
+    "friendsofphp/php-cs-fixer": "*",
+    "lusitanian/oauth": "*",
+    "squizlabs/php_codesniffer": "2.6.2",
+    "magento/marketplace-eqp": "*"
+    },	
+  
+  "autoload": {
+    "psr-4": { "Gigya\\GigyaIM\\": "" },
+    "files": [ "registration.php" ]
+  }
+}
